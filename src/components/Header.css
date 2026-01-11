@@ -22,15 +22,37 @@
 
 .header-logo {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: var(--font-serif);
     letter-spacing: 0.05em;
     cursor: pointer;
     z-index: 1001;
-    /* Above mobile menu */
-    mix-blend-mode: difference;
-    /* Ensures visibility on light backgrounds if specific visuals overlap */
     color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Lift off background */
+    transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: scale(1.02);
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
+    color: var(--accent-green);
+    /* Brand color pop */
+    filter: drop-shadow(0 0 5px rgba(97, 218, 166, 0.4));
+    /* Subtle neon glow */
+    transition: all 0.5s ease;
+}
+
+.header-logo:hover .logo-icon {
+    filter: drop-shadow(0 0 8px rgba(97, 218, 166, 0.8));
+    transform: rotate(180deg);
 }
 
 /* Desktop Nav */

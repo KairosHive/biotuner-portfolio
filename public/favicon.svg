@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="4">
+    <!-- The Circle: Thicker stroke for better small visibility -->
+    <circle cx="50" cy="50" r="35" stroke-dasharray="0 0"/>
+    
+    <!-- The Fork: imposing order -->
+    <path d="M40 30 L 40 60 Q 40 75 50 75 Q 60 75 60 60 L 60 30" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="50" y1="75" x2="50" y2="90" stroke-linecap="round"/>
+</svg>

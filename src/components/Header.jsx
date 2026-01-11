@@ -41,6 +41,7 @@ const Header = () => {
                 transition={{ duration: 0.5 }}
             >
                 <div className="header-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                    <img src="/favicon.svg" alt="Logo" className="logo-icon" />
                     BIOTUNER
                 </div>
 
