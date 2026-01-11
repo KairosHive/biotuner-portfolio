@@ -6,6 +6,5 @@
     },
     "observability": {
         "enabled": true
-    },
-    "main": "src/worker.js"
+    }
 }
