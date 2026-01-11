@@ -22,7 +22,7 @@ This website serves as:
 ### **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/kairos-hive/biotuner-portfolio.git
+git clone https://github.com/KairosHive/biotuner-portfolio.git
 
 # Navigate to project
 cd biotuner-portfolio
