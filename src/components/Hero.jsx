@@ -39,6 +39,18 @@ const Hero = () => {
                     <a href="#concept" className="btn">Explore</a>
                 </div>
 
+                <div style={{ marginTop: '2rem', marginBottom: '-1rem' }}>
+                    <a
+                        href="https://biotuner.kairos-creation.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn sparkle-btn"
+                        style={{ padding: '0.8rem 2.5rem' }}
+                    >
+                        Engine ✦
+                    </a>
+                </div>
+
                 <SignalIcons />
             </motion.div>
         </section>

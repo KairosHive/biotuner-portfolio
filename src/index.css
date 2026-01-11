@@ -186,3 +186,53 @@ section {
     height: 200px;
   }
 }
+
+/* Sparkle Button */
+.sparkle-btn {
+  position: relative;
+  overflow: hidden;
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+  box-shadow: 0 0 15px rgba(93, 112, 82, 0.2);
+  background: rgba(93, 112, 82, 0.1);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.sparkle-btn:hover {
+  box-shadow: 0 0 25px rgba(93, 112, 82, 0.5);
+  background: var(--accent-green);
+  color: var(--bg-color);
+  border-color: var(--accent-green);
+}
+
+.sparkle-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right,
+      transparent,
+      rgba(255, 255, 255, 0.6),
+      transparent);
+  transform: skewX(-25deg);
+  animation: shine 4s infinite;
+}
+
+@keyframes shine {
+
+  0%,
+  10% {
+    left: -100%;
+  }
+
+  40% {
+    left: 200%;
+  }
+
+  100% {
+    left: 200%;
+  }
+}

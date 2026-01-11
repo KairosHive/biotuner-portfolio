@@ -14,7 +14,7 @@ const Gallery = ({ items }) => {
                     <span style={{ color: 'var(--accent-clay)', textTransform: 'uppercase', fontSize: '0.8rem', letterSpacing: '0.1em' }}>Portfolio</span>
                     <h2 style={{ textAlign: 'center' }}>Sonic Experiments</h2>
                     <p style={{ textAlign: 'center', margin: '0 auto' }}>
-                        Compositions and improvisations where harmonic relationships derived from biosignals dictate the musical structure.
+                        Improvisations where harmonic information derived from brain (EEG) signals of the player modulates microtonal scales in real-time, creating unique non-reproducible progressions.
                     </p>
                 </div>
 

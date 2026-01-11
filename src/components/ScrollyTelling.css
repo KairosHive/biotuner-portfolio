@@ -22,6 +22,8 @@
     gap: 60vh;
     /* Space out sections */
     padding-top: 30vh;
+    pointer-events: none;
+    /* Allow clicks to pass through to images */
 }
 
 .text-section {
@@ -35,6 +37,8 @@
     /* Darker glass */
     border: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    pointer-events: auto;
+    /* Re-enable clicks for text content */
 }
 
 @media (max-width: 900px) {

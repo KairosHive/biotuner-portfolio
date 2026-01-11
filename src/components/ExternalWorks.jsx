@@ -9,7 +9,7 @@ const ExternalWorks = ({ items }) => {
         <section id="external" className="container">
             <div style={{ marginBottom: '6rem', textAlign: 'center' }}>
                 <span style={{ color: 'var(--accent-green)', textTransform: 'uppercase', fontSize: '0.8rem', letterSpacing: '0.1em' }}>Collaborations & Portfolio</span>
-                <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Sonic Experiments</h2>
+                <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>Musical Explorations</h2>
                 <p style={{ margin: '0 auto', maxWidth: '700px', fontSize: '1.1rem', color: 'var(--text-secondary)' }}>
                     A collection of audio documentations and artistic collaborations exploring the sonification of biological signals.
                     These works demonstrate how physiological data—from neural oscillations to plant bio-signals—can be translated into meaningful musical structures.
@@ -30,26 +30,30 @@ const ExternalWorks = ({ items }) => {
                         <p style={{ textAlign: 'center', margin: '0 auto', maxWidth: '600px' }}>
                             {collab.description}
                         </p>
-                        {collab.profile_url && (
-                            <a
-                                href={collab.profile_url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                    display: 'inline-block',
-                                    marginTop: '1rem',
-                                    color: 'var(--accent-clay)',
-                                    fontSize: '0.9rem',
-                                    textDecoration: 'none',
-                                    borderBottom: '1px solid transparent',
-                                    transition: 'border-color 0.3s'
-                                }}
-                                onMouseEnter={(e) => e.target.style.borderBottomColor = 'var(--accent-clay)'}
-                                onMouseLeave={(e) => e.target.style.borderBottomColor = 'transparent'}
-                            >
-                                {collab.profile_title || 'Visit Profile'} →
-                            </a>
-                        )}
+                        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginTop: '1.5rem', flexWrap: 'wrap' }}>
+                            {collab.profile_url && (
+                                <a
+                                    href={collab.profile_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn sparkle-btn"
+                                    style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem' }}
+                                >
+                                    {collab.profile_title || 'Visit Profile'} ↗
+                                </a>
+                            )}
+                            {collab.documentary_url && (
+                                <a
+                                    href={collab.documentary_url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn sparkle-btn"
+                                    style={{ fontSize: '0.8rem', padding: '0.6rem 1.2rem' }}
+                                >
+                                    Watch Documentary ↗
+                                </a>
+                            )}
+                        </div>
                     </div>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>

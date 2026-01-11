@@ -157,9 +157,10 @@
         {
             "id": "opera_plants",
             "name": "Opéra des Plantes",
-            "description": "Exploration of plant bio-signals transformed into musical structures, creating a voice for the vegetal world.",
-            "profile_title": "Visit Project",
+            "description": "A collaboration with Opéra de Montréal and AgeTeq where Kairos Hive served as creative and scientific consultant for the sonification of plant electrophysiological signals. The project engages students in co-creating a mini-opera to transform eco-anxiety into resilience through lyric art.",
+            "profile_title": "Visit project website",
             "profile_url": "https://operademontreal.com/action-sociale-et-education/echo-des-plantes",
+            "documentary_url": "https://www.youtube.com/watch?si=gaQH1ZVj0gu0FZLL&v=hxzWpF8Jygc&feature=youtu.be",
             "works": [
                 {
                     "id": "opera_plants_2",
@@ -170,11 +171,6 @@
                     "id": "opera_plants_3",
                     "url": "/assets/audio/compositions/audio_composition_opera_plants_3.mp3",
                     "title": "Fougère de Noël"
-                },
-                {
-                    "id": "opera_plants_doc",
-                    "url": "https://www.youtube.com/watch?si=gaQH1ZVj0gu0FZLL&v=hxzWpF8Jygc&feature=youtu.be",
-                    "title": "Documentary"
                 }
             ]
         }
