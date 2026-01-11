@@ -1,0 +1,100 @@
+.scrolly-layout {
+    display: flex;
+    position: relative;
+}
+
+.sticky-visual {
+    position: sticky;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 50%, #1a1d1a 0%, #121412 80%);
+    /* Subtle spotlight effect */
+}
+
+.scrolling-text {
+    width: 50%;
+    min-height: 100vh;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 60vh;
+    /* Space out sections */
+    padding-top: 30vh;
+}
+
+.text-section {
+    /* min-height: 80vh; */
+    display: flex;
+    align-items: center;
+}
+
+.content-box {
+    background: rgba(20, 22, 20, 0.7);
+    /* Darker glass */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 900px) {
+    .scrolly-layout {
+        display: block;
+        /* Simpler layout for mobile */
+    }
+
+    .sticky-visual {
+        position: sticky;
+        /* CHANGED: Fixed caused it to cover the whole site. Sticky keeps it contained. */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+        opacity: 1;
+        /* REMOVED VEIL: Fully visible images */
+        pointer-events: none;
+        /* Ensure scroll events pass through */
+    }
+
+    .visual-container img {
+        opacity: 1;
+        /* Ensure images are fully visible */
+    }
+
+    .scrolling-text {
+        width: 100%;
+        padding: 1.5rem;
+        padding-top: 40vh;
+        /* Start text slightly closer to top */
+        position: relative;
+        z-index: 1;
+        gap: 50vh;
+        /* Reduced gap to prevent feeling "stuck" */
+    }
+
+    .visual-container p {
+        display: none;
+        /* Hide caption on mobile to reduce clutter */
+    }
+
+    .content-box {
+        background: rgba(15, 18, 15, 0.9);
+        /* More opaque background for readability */
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Performance Optimizations */
+.visual-container {
+    will-change: opacity;
+    transform: translateZ(0);
+    /* Force GPU acceleration */
+}
+
+.sticky-visual img {
+    will-change: transform;
+    backface-visibility: hidden;
+}

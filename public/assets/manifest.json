@@ -1,0 +1,182 @@
+{
+    "compositions": [
+        {
+            "id": "eeg_impro_1",
+            "filename": "/assets/audio/compositions/audio_composition_eeg_impro_1.mp3",
+            "title": "Excerpt of Neural Improvisation I",
+            "description": ""
+        },
+        {
+            "id": "biotuning_excerpt_1",
+            "filename": "/assets/audio/compositions/audio_composition_biotuning_excerpt_1.mp3",
+            "title": "Excerpt of Neural Improvisation II",
+            "description": ""
+        },
+        {
+            "id": "biotuning_excerpt_2",
+            "filename": "/assets/audio/compositions/audio_composition_biotuning_excerpt_2.mp3",
+            "title": "Excerpt of Neural Improvisation III",
+            "description": ""
+        }
+    ],
+    "tunings": [
+        {
+            "id": "harmonic_1",
+            "filename": "/assets/audio/tunings/audio_tuning_harmonic_1.mp3",
+            "type": "Harmonic",
+            "description": "A tuning system based on harmonic series derivations.",
+            "intervals": [
+                203.91,
+                297.51,
+                386.31,
+                701.95,
+                968.83,
+                1088.27,
+                1200
+            ]
+        },
+        {
+            "id": "harmonic_2",
+            "filename": "/assets/audio/tunings/audio_tuning_harmonic_2.mp3",
+            "type": "Harmonic",
+            "description": "Alternative harmonic series derivation demonstrating different timbral qualities.",
+            "intervals": [
+                104.96,
+                130.23,
+                203.91,
+                297.51,
+                386.31,
+                470.78,
+                551.32,
+                665.51,
+                701.96,
+                1088.27,
+                1145.04,
+                1200
+            ]
+        },
+        {
+            "id": "dissonance_0",
+            "filename": "/assets/audio/tunings/audio_tuning_dissonance_0.mp3",
+            "type": "Dissonance Curve",
+            "description": "Tuning derived from the minima of a dissonance curve calculated from biosignals.",
+            "intervals": [
+                434.12,
+                532.33,
+                568.86,
+                785.32,
+                1003.11,
+                1100.23,
+                1200
+            ]
+        },
+        {
+            "id": "dissonance_1",
+            "filename": "/assets/audio/tunings/audio_tuning_dissonance_1.mp3",
+            "type": "Dissonance Curve",
+            "description": "Variation of dissonance curve tuning.",
+            "intervals": [
+                434.12,
+                636.08,
+                701.96,
+                764.3,
+                962.88,
+                1136.53,
+                1200
+            ]
+        },
+        {
+            "id": "dissonance_2",
+            "filename": "/assets/audio/tunings/audio_tuning_dissonance_2.mp3",
+            "type": "Dissonance Curve",
+            "description": "Variation of dissonance curve tuning.",
+            "intervals": [
+                434.12,
+                566.36,
+                701.96,
+                820.17,
+                939.9,
+                1136.53,
+                1200
+            ]
+        },
+        {
+            "id": "dissonance_3",
+            "filename": "/assets/audio/tunings/audio_tuning_dissonance_3.mp3",
+            "type": "Dissonance Curve",
+            "description": "Variation of dissonance curve tuning.",
+            "intervals": [
+                411.07,
+                591.15,
+                764.3,
+                800.65,
+                1116.66,
+                1200
+            ]
+        },
+        {
+            "id": "dissonance_4",
+            "filename": "/assets/audio/tunings/audio_tuning_dissonance_4.mp3",
+            "type": "Dissonance Curve",
+            "description": "Variation of dissonance curve tuning.",
+            "intervals": [
+                519.55,
+                757.6,
+                883.67,
+                967.84,
+                1197.4,
+                1200
+            ]
+        }
+    ],
+    "external_works": [
+        {
+            "id": "hot_sugar",
+            "name": "Hot Sugar",
+            "description": "His creative process integrated harmonic information stemming from an organoid system at Santa Barbara University.",
+            "profile_title": "Visit Artist Profile",
+            "profile_url": "https://hotsugar.bandcamp.com/",
+            "works": [
+                {
+                    "id": "hot_sugar_1",
+                    "url": "https://music.youtube.com/watch?v=AzQrwtnvR2k",
+                    "title": "SMOOTHBRAIN MEMORY ERASER"
+                },
+                {
+                    "id": "hot_sugar_2",
+                    "url": "https://music.youtube.com/watch?v=sP2cShhr3qI&si=sCiaxvowBR9-W8ni",
+                    "title": "MANIFEST THE PERFECT BODY"
+                },
+                {
+                    "id": "hot_sugar_3",
+                    "url": "https://music.youtube.com/watch?v=HJkHrQrglHs&si=eUporO5GOTrjZbVH",
+                    "title": "LAST REMAINING BRAIN CELL"
+                }
+            ]
+        },
+        {
+            "id": "opera_plants",
+            "name": "Opéra des Plantes",
+            "description": "Exploration of plant bio-signals transformed into musical structures, creating a voice for the vegetal world.",
+            "profile_title": "Visit Project",
+            "profile_url": "https://operademontreal.com/action-sociale-et-education/echo-des-plantes",
+            "works": [
+                {
+                    "id": "opera_plants_2",
+                    "url": "/assets/audio/compositions/audio_composition_opera_plants_2.mp3",
+                    "title": "Érable Rouge"
+                },
+                {
+                    "id": "opera_plants_3",
+                    "url": "/assets/audio/compositions/audio_composition_opera_plants_3.mp3",
+                    "title": "Fougère de Noël"
+                },
+                {
+                    "id": "opera_plants_doc",
+                    "url": "https://www.youtube.com/watch?si=gaQH1ZVj0gu0FZLL&v=hxzWpF8Jygc&feature=youtu.be",
+                    "title": "Documentary"
+                }
+            ]
+        }
+    ]
+}
