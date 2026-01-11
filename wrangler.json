@@ -1,10 +1,11 @@
 {
     "name": "biotuner-portfolio",
-    "compatibility_date": "2025-01-10",
+    "compatibility_date": "2024-09-23",
     "assets": {
         "directory": "./dist"
     },
     "observability": {
         "enabled": true
-    }
+    },
+    "main": "src/worker.js"
 }
