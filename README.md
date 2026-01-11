@@ -1,16 +1,49 @@
-# React + Vite
+# **Biotuner Portfolio**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A digital portfolio documenting the aesthetic outcomes of the **Biotuner** project—a Python toolbox for the sonification of biological and non-biological signals. This platform explores the intersection of neurophenomenology, generative music, and signal processing.
 
-Currently, two official plugins are available:
+![Biotuner Banner](public/favicon.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Overview**
 
-## React Compiler
+Biotuner treats the harmonic architecture of measured biological rhythms as a compositional medium. By mapping time-series data (EEG, ECG, plant bio-signals, etc.) to musical intervals, we uncover hidden consonance and dissonance within natural dynamics.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This website serves as:
+- A specific **Manifesto** of the theoretical concepts (Harmonicity, Tuning Systems).
+- A **Gallery** of sonifications and artistic collaborations.
+- A gateway to the [**Biotuner Engine**](https://biotuner.kairos-creation.org).
 
-## Expanding the ESLint configuration
+## **Getting Started**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Prerequisites**
+- Node.js (Latest LTS recommended)
+- npm or pnpm
+
+### **Installation**
+```bash
+# Clone the repository
+git clone https://github.com/kairos-hive/biotuner-portfolio.git
+
+# Navigate to project
+cd biotuner-portfolio
+
+# Install dependencies
+npm install
+```
+
+### **Development**
+```bash
+npm run dev
+```
+
+### **Build**
+```bash
+npm run build
+```
+
+---
+
+## **License**
+
+&copy; 2026 **Biotuner**. Developed by [**Kairos Hive**](https://kairos-hive.org).
+All rights reserved.
