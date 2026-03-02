@@ -50,7 +50,7 @@ const Header = () => {
                     {navLinks.map(link => (
                         <a key={link.href} href={link.href} className="header-link">{link.label}</a>
                     ))}
-                    <a href="https://biotuner.kairos-creation.org" target="_blank" rel="noopener noreferrer" className="header-link engine-link">Engine</a>
+                    <a href="https://biotuner-engine.kairos-hive.org/" target="_blank" rel="noopener noreferrer" className="header-link engine-link">Engine</a>
                 </div>
 
                 {/* Mobile Hamburger */}
@@ -88,7 +88,7 @@ const Header = () => {
                                 </motion.a>
                             ))}
                             <motion.a
-                                href="https://biotuner.kairos-creation.org"
+                                href="https://biotuner-engine.kairos-hive.org/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="mobile-link mobile-engine-link"

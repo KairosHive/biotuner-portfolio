@@ -41,7 +41,7 @@ const Hero = () => {
 
                 <div style={{ marginTop: '2rem', marginBottom: '-1rem' }}>
                     <a
-                        href="https://biotuner.kairos-creation.org"
+                        href="https://biotuner-engine.kairos-hive.org/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn sparkle-btn"
