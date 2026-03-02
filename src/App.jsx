@@ -45,7 +45,7 @@ function App() {
         </p>
         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', marginBottom: '2rem' }}>
           <a href="https://github.com/AntoineBellemare/biotuner" target="_blank" rel="noopener noreferrer">Toolbox GitHub</a>
-          <a href="https://biotuner.kairos-creation.org" target="_blank" rel="noopener noreferrer">Biotuner Engine</a>
+          <a href="https://biotuner-engine.kairos-hive.org/" target="_blank" rel="noopener noreferrer">Biotuner Engine</a>
         </div>
         <p style={{ fontSize: '0.8rem', opacity: 0.5 }}>
           &copy; {new Date().getFullYear()} Biotuner by <a href="https://kairos-hive.org" target="_blank" rel="noopener noreferrer">Kairos Hive</a>. All rights reserved.

@@ -33,7 +33,7 @@ const Tunings = ({ items }) => {
                             Want to generate your own scales? The experimental <strong>Biotuner Engine</strong> invites you to create tunings from your own time-series data. Note that this tool assumes some familiarity with signal processing concepts.
                         </p>
                         <a
-                            href="https://biotuner.kairos-creation.org"
+                            href="https://biotuner-engine.kairos-hive.org/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="header-link engine-link"
