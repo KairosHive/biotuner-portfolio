@@ -41,7 +41,7 @@ function App() {
         marginTop: '4rem'
       }}>
         <p style={{ margin: '0 auto 1rem', fontSize: '0.9rem' }}>
-          Biotuner is a python toolbox for the sonification of various biological and non-biological signals. This website documents the aesthetic outcomes of the biotuner. More to read in a peer-reviewed paper submitted to Organised Sound.
+          Biotuner is a python toolbox for the sonification of various biological and non-biological signals. This website documents the aesthetic outcomes of the biotuner. More to read in a <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D972D4491749CA2173C7863BBCF20145/S1355771826101162a.pdf/the-harmonicity-of-brain-dynamics-a-neurophenomenological-approach-to-creative-biofeedback.pdf" target="_blank" rel="noopener noreferrer">peer-reviewed paper published in Organised Sound</a>.
         </p>
         <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', marginBottom: '2rem' }}>
           <a href="https://github.com/AntoineBellemare/biotuner" target="_blank" rel="noopener noreferrer">Toolbox GitHub</a>
