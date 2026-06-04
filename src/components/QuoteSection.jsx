@@ -27,7 +27,7 @@ const QuoteSection = () => {
                     "The concept of harmonicity, tracing back to Pythagoras' exploration of integer ratios in vibrating strings, has been observed across various natural phenomena... underscoring the self-organizing capacities of biological systems."
                 </p>
                 <span style={{ display: 'block', marginTop: '2rem', color: 'var(--text-secondary)', fontSize: '0.9rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-                    — The harmonicity of brain dynamics (2024)
+                    — <a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D972D4491749CA2173C7863BBCF20145/S1355771826101162a.pdf/the-harmonicity-of-brain-dynamics-a-neurophenomenological-approach-to-creative-biofeedback.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>The harmonicity of brain dynamics (2024)</a>
                 </span>
             </motion.div>
         </section>
